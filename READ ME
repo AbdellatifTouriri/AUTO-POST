@@ -1,0 +1,85 @@
+#  Seedance – Create Viral AI Videos, Instantly
+
+Welcome to **Seedance** – your AI copilot for creating short-form viral videos in just a few clicks.  
+No editing. No camera. No stress. Just type your idea, and we’ll handle the rest.
+
+---
+
+##  What is Seedance?
+
+**Seedance** helps creators, marketers, and entrepreneurs:
+
+-  Turn simple prompts into viral-ready video scripts  
+-  Generate eye-catching short videos using AI (text-to-video, voiceover, visuals)  
+-  Automatically upload to **TikTok**, **YouTube Shorts**, and **Instagram Reels**
+
+Whether you're growing your audience, launching a product, or just experimenting with content — Seedance gives you a head start.
+
+---
+
+##  How It Works
+
+1. **You type a prompt**  
+   _e.g. “Share 3 tips for staying productive at work”_
+
+2. **Seedance generates everything**  
+   - AI script & voiceover  
+   - Visuals using templates or generative AI  
+   - Video editing with transitions and sound
+
+3. **Auto-publish to platforms**  
+   With built-in integrations for TikTok, YouTube, and Instagram, your content goes live instantly.
+
+4. **Track & improve**  
+   We’re working on analytics so you can see what’s working and iterate fast.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React / Next.js  
+- **Backend**: FastAPI (Python) + Node.js  
+- **AI**: OpenAI GPT, TTS models, Stable Diffusion  
+- **Video Engine**: FFmpeg  
+- **Storage**: AWS S3  
+- **Deploy**: Docker, Vercel, AWS Lambda  
+- **APIs**: TikTok for Developers, YouTube Data API, Instagram Graph API
+
+---
+
+##  Getting Started (Developers)
+
+### Clone the repo:
+
+```bash
+git clone https://github.com/your-username/seedance.git
+cd seedance
+Install dependencies:
+bash
+Copier
+Modifier
+# Frontend
+npm install
+
+# Backend
+cd backend
+pip install -r requirements.txt
+Run the app locally:
+bash
+Copier
+Modifier
+# Frontend
+npm run dev
+
+# Backend (FastAPI)
+uvicorn app.main:app --reload
+ API Keys Required
+To connect to AI and social platforms, create a .env file in /backend:
+
+env
+Copier
+Modifier
+OPENAI_API_KEY=your_openai_key
+TIKTOK_TOKEN=your_tiktok_token
+YOUTUBE_API_KEY=your_youtube_key
+INSTAGRAM_TOKEN=your_instagram_token
